@@ -1,0 +1,111 @@
+{% extends 'navigation.html' %}
+{% load static %}
+{% block body %}
+
+
+<section id="google-map">
+     <!-- How to change your own map point
+            1. Go to Google Maps
+            2. Click on your location point
+            3. Click "Share" and choose "Embed map" tab
+            4. Copy only URL and paste it within the src="" field below
+	-->
+     <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27996.892751321946!2d80.52611661083982!3d28.701263100000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a1ed911a128441%3A0xda7c7adcb8364301!2sFarwest%20Gym%20Center!5e0!3m2!1sne!2snp!4v1721830603681!5m2!1sne!2snp"
+          width="1500" height="550" style="border:0;" allowfullscreen="">
+
+     </iframe>
+</section>
+
+
+<!-- FOOTER -->
+<footer data-stellar-background-ratio="5">
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-4 col-sm-4">
+                    <div class="footer-thumb">
+                         <h4 class="wow fadeInUp" data-wow-delay="0.4s">Contact Info</h4>
+                         <p>you can call in the number below if any emergency</p>
+
+                         <div class="contact-info">
+                              <p><i class="fa fa-phone"></i>+977 9812730841</p>
+                              <p><i class="fa fa-envelope-o"></i> <a href="#">kirankhatri414@gmail.com</a></p>
+                         </div>
+                    </div>
+               </div>
+
+               <div class="col-md-4 col-sm-4">
+                    <div class="footer-thumb">
+                         <h4 class="wow fadeInUp" data-wow-delay="0.4s">Location Address</h4>
+                         <div class="latest-stories">
+                              <div class="stories-image">
+                                   <a href="#"><img src="{% static 'images/yct_logo.png' %}" class="img-responsive"
+                                             alt=""></a>
+                              </div>
+                              <div class="stories-info">
+                                   <a href="#">
+                                        <h5>In karnali District</h5>
+                                   </a>
+                                   <span>Dhangadhi nearby mehendra highway</span>
+                              </div>
+                         </div>
+
+
+                         <div class="latest-stories">
+                              <div class="stories-image">
+                                   <a href="#"><img src="{% static 'images/yct.jpg' %}" class="img-responsive"
+                                             alt=""></a>
+                              </div>
+                              <div class="stories-info">
+                                   <a href="#">
+                                        <h4>physical Location </h4>
+                                        <h5>Far-western gyam center </h5>
+                                   </a>
+
+                              </div>
+                         </div>
+                    </div>
+               </div>
+               
+
+               <div class="col-md-4 col-sm-4">
+                    <div class="footer-thumb">
+                         <div class="opening-hours">
+                              <h4 class="wow fadeInUp" data-wow-delay="0.4s">Opening Hours</h4>
+                              <p>Monday - Friday <span>06:00 AM - 10:00 PM</span></p>
+                              <p>Saturday <span>09:00 AM - 08:00 PM</span></p>
+                              <p>Sunday <span>Closed</span></p>
+                         </div>
+
+                         <ul class="social-icon">
+                              <li><a href="#" class="fa fa-facebook-square" attr="facebook icon"></a></li>
+                              <li><a href="#" class="fa fa-twitter"></a></li>
+                              <li><a href="#" class="fa fa-instagram"></a></li>
+                         </ul>
+                    </div>
+               </div>
+
+               <div align="center" class="col-md-12 col-sm-12 border-top">
+
+                    <div class="col-md-6 col-sm-6">
+                         <div class="footer-link">
+                              <a href="#">Far-western </a>
+                              <a href="#">University</a>
+                              <a href="#">Science and Technology</a>
+                              <a href="#">BSC 8th sem project</a>
+                         </div>
+                    </div>
+                    <div class="col-md-2 col-sm-2 text-align-center">
+                         <div class="angle-up-btn">
+                              <a href="#top" class="smoothScroll wow fadeInUp" data-wow-delay="1.2s"><i
+                                        class="fa fa-angle-up"></i></a>
+                         </div>
+                    </div>
+               </div>
+
+          </div>
+     </div>
+</footer>
+
+{% endblock %}
